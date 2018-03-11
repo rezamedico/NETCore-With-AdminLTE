@@ -1,0 +1,11 @@
+C:\PAS\pas\pas\bin\Debug\netcoreapp2.0\pas.deps.json
+C:\PAS\pas\pas\bin\Debug\netcoreapp2.0\pas.runtimeconfig.json
+C:\PAS\pas\pas\bin\Debug\netcoreapp2.0\pas.runtimeconfig.dev.json
+C:\PAS\pas\pas\bin\Debug\netcoreapp2.0\pas.dll
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.csprojResolveAssemblyReference.cache
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.csproj.CoreCompileInputs.cache
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.AssemblyInfoInputs.cache
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.AssemblyInfo.cs
+C:\PAS\pas\pas\bin\Debug\netcoreapp2.0\pas.pdb
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.dll
+C:\PAS\pas\pas\obj\Debug\netcoreapp2.0\pas.pdb

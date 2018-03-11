@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/images/agenda_icon.png" type="image/icon" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PPSI.Web.Pupuk</title>
+
+    <!--The Development CSS-->
+    <environment include="Development">
+        <!-- Stylesheets
+        =============================================
+        -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="~/css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/dark.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/font-icons.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/magnific-popup.css" type="text/css" />
+
+        <link rel="stylesheet" href="~/css/responsive.css" type="text/css" />
+    </environment>
+
+    <!--The Production CSS-->
+    <environment include="Staging,Production">
+        <!-- Stylesheets
+        =============================================
+        -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="~/css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/dark.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/font-icons.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="~/css/magnific-popup.css" type="text/css" />
+
+        <link rel="stylesheet" href="~/css/responsive.css" type="text/css" />
+    </environment>
+
+</head>
+
+<body class="stretched">
+
+    <div class="wrapper">
+        @RenderBody()
+    </div>
+    <!-- ./wrapper -->
+
+    <!--The Development JS-->
+    <environment names="Development">
+        <!-- External JavaScripts
+    ============================================= -->
+        <script type="text/javascript" src="~/js/jquery.js"></script>
+        <script type="text/javascript" src="~/js/plugins.js"></script>
+
+        <!-- Footer Scripts
+    ============================================= -->
+        <script type="text/javascript" src="~/js/functions.js"></script>
+
+    </environment>
+
+    <!--The Production JS-->
+    <environment names="Staging,Production">
+        <!-- External JavaScripts
+    ============================================= -->
+        <script type="text/javascript" src="~/js/jquery.js"></script>
+        <script type="text/javascript" src="~/js/plugins.js"></script>
+
+        <!-- Footer Scripts
+    ============================================= -->
+        <script type="text/javascript" src="~/js/functions.js"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+
+</html>
